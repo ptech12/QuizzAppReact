@@ -2,37 +2,102 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Purple: #9F5F80
+   Skin:   #FFBA93
+   Green: #297D71 
+   */
+
+h4 {
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+  color: black;
+  background-color: #FFBA93;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px 15px;
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.question1 {
+  background-color: #9f5f80;
+}
+
+.Banner{
+  /* align-items: center; */
+  margin-bottom: 30px;
+  background-color: #FFBA93;
+  border: none;
+  background-color: #FFBA93;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 30%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  transition-duration: 0.3s;
+}
+
+.question {
   color: white;
+  font-size: 16px;
+  /* text-align: left; */
 }
 
-.App-link {
-  color: #61dafb;
+.res {
+  margin-top: 20px;
+  border: none;
+  background-color: #297D71;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* font-size: 16px; */
+  transition-duration: 0.3s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-btn {
+  border: none;
+  background-color: #FFBA93;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 29%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.3s;
+}
+
+.menu-btn:hover,
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover,
+.res {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.btn1:disabled, .btn2:disabled,
+.btn3:disabled,
+.btn4:disabled, .res:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+
 }
